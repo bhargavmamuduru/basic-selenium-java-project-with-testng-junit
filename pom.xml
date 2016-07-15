@@ -19,8 +19,9 @@
             <version>6.8</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
+
+
     <build>
         <plugins>
             <!-- Compiler plug-in -->
@@ -28,7 +29,6 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.3</version>
-
             </plugin>
             <!-- Below plug-in is used to execute tests -->
             <plugin>
@@ -40,8 +40,9 @@
                         <!-- TestNG suite XML files -->
                         <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                </configuration>`
+                </configuration>
             </plugin>
         </plugins>
     </build>
+
 </project>
