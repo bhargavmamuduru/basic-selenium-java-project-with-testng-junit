@@ -6,7 +6,6 @@ set the project properties, clear out the sample sources, and
 get to work.
 
 #TestNG
-Image result for what is testng
 TestNG is a testing framework inspired from JUnit and NUnit
 but introducing some new functionalities that make it more powerful
 and easier to use, such as: Annotations. Run your tests in
