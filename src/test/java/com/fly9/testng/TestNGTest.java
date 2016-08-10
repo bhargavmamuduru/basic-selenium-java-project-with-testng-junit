@@ -26,18 +26,6 @@ public class TestNGTest {
             Assert.assertEquals(500, appraisal, 0.0, "500");
         }
 
-        @Test
-        public void testRestApi(){
-//
-//            given().
-//                contentType("application/json").
-//            when().
-//                get("http://haproxy.fly9-testing.82209756.svc.dockerapp.io/rest/api/v1/resellers/bySiteDomain/haproxy.fly9-testing.82209756.svc.dockerapp.io/info").
-//            then().
-//                statusCode(200);
-        }
-
-
         // Test to check yearly salary
         @Test
         public void testCalculateYearlySalary() {
